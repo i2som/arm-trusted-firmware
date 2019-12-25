@@ -114,11 +114,11 @@
 		regulator-always-on;
 	};
 };
-
+/*
 &clk_hse {
 	st,digbypass;
 };
-
+*/
 &iwdg2 {
 	timeout-sec = <32>;
 	status = "okay";
